@@ -10,6 +10,7 @@ console.log("Price for my phone will be : ",myPhone," taka");
 // console.log(phones);
 function cheapestPhone(phones){
     cheapest=phones[0].price;
+    let phone;
     for(let i=0;i<phones.length;i++){
         phone = phones[i];
         if(phone.price<cheapest){

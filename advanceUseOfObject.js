@@ -7,7 +7,7 @@ const actor={
         brand : "Tesla",
         price :1700000,
         manufacturer :{
-            name : "Tesla",
+            name : "Tesla INC.",
             CEO : "Elon Mask"
         }
     },
@@ -20,3 +20,8 @@ const actor={
 //console.log(actor.act);//this will return the type of the property
 actor.act();
 console.log(actor);
+console.log(actor.friends[0]);
+console.log(actor.movies[0]);
+console.log(actor.movies[0].name);
+console.log(actor.car.brand);
+console.log(actor.car.manufacturer.name);
